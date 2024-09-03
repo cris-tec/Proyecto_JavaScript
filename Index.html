@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Lista de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header>
+            <h1 class="matemasie-regular">Lista de Compras</h1>
+        </header>
+            <section>
+                <div id="simulador">
+                    <h2 class="nerko-one-regular">Agregar Receta</h2>
+                    <form id="formularioIngreso">
+                    	<input type="text" id="nomReceta" placeholder="Nombre de la receta">
+                    	<textarea id="ingredientes" placeholder="Ingredientes separados por comas"></textarea>
+			            <button type="submit" id="btnReceta">Agregar Receta</button>
+                    </form>
+                    <h2 class="nerko-one-regular">Lista de Compras</h2>
+                    <ul id="lista"></ul>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <p class="piePagina">Lista de Compras</p>
+    </footer>
+    <script src="mainScript.js"></script>
+</body>
+</html>
