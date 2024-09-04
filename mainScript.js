@@ -27,7 +27,7 @@ function agregarIngLocalStorage(listaDeIngredientes) {
     li.appendChild(eliminar);
     listaDeCompras.appendChild(li);
 }
-debugger
+
 function guardarLocalStorage() {
     const items = Array.from(listaDeCompras.children).map(li => li.firstChild.textContent);
     localStorage.setItem('lista', JSON.stringify(items));
