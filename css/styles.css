@@ -25,31 +25,21 @@ h1 {
 }
 
 #simulador {
-    display: flex;
-    justify-content: center;
     max-width: 600px;
     margin: 0 auto;
-    padding: 5px;
 }
 
-input {
+input, textarea {
     display: block;
-    width: 50%;
-    text-align: center;
+    width: 100%;
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-#formularioIngreso{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#btnReceta{
-    width: 10%;
-    margin: 0px;
+textarea {
+    height: 100px;
 }
 
 button {
@@ -59,7 +49,7 @@ button {
     cursor: pointer;
     width: 70%;
     border-radius: 5px;
-    margin-left: 5%;
+    margin-left: 15%;
     padding: 10px;
 }
 
@@ -76,6 +66,20 @@ button:hover {
     background-color: #254b7c;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Indie Flower", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
 .piePagina{
     font-family: "Indie Flower", cursive;
     font-weight: 400;
@@ -84,22 +88,3 @@ button:hover {
     margin-top: 5%;
     text-align: center;
 }
-
-img{
-    width: 10rem;
-    height: 10rem;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #2196F3;
-    padding: 10px;
-  }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }

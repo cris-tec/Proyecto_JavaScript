@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "nombre":"Suculenta 1",
+        "precio":5000,
+	    "img":"/Imagenes/Suculenta 1.png",
+        "stock":5
+    },
+    {
+        "id": 2,
+        "nombre":"Suculenta 2",
+        "precio":5000,
+	    "img":"/Imagenes/2.png",
+        "stock":5
+    },
+    {
+        "id": 3,
+        "nombre":"Suculenta 3",
+        "precio":5000,
+	    "img":"/Imagenes/3.png",
+        "stock":5
+    },
+    {
+        "id": 4,
+        "nombre":"Suculenta 4",
+        "precio":5000,
+	    "img":"/Imagenes/4.png",
+        "stock":5
+    },
+    {
+        "id": 5,
+        "nombre":"Suculenta 5",
+        "precio":5000,
+	    "img":"/Imagenes/5.png",
+        "stock":5
+    },
+    {
+        "id": 6,
+        "nombre":"Suculenta 6",
+        "precio":5000,
+	    "img":"/Imagenes/6.png",
+        "stock":5
+    },
+    {
+        "id": 7,
+        "nombre":"Suculenta 7",
+        "precio":5000,
+	    "img":"/Imagenes/7.png",
+        "stock":5
+    },
+    {
+        "id": 8,
+        "nombre":"Suculenta 8",
+        "precio":5000,
+	    "img":"/Imagenes/8.png",
+        "stock":5
+    },
+    {
+        "id": 9,
+        "nombre":"Suculenta 9",
+        "precio":5000,
+	    "img":"/Imagenes/9.png",
+        "stock":5
+    },
+    {
+        "id": 10,
+        "nombre":"Suculenta 10",
+        "precio":5000,
+	    "img":"/Imagenes/10.png",
+        "stock":5
+    }
+]

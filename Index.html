@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header>
+            <h1 class="matemasie-regular">Carrito de Compras</h1>
+        </header>
+            <section>
+                <div id="simulador">
+                    <div class="grid-container">
+                        <div class="grid-item">
+                        </div>
+                      </div>
+                </div>
+                <div id="carrito"></div>
+                <form id="formularioIngreso">
+                    <input type="text" id="nombre" placeholder="Nombre y Apellido">
+                    <input type="text" id="telefono" placeholder="Telefono">
+                    <input type="text" id="direccion" placeholder="Dirección">
+                    <button type="submit" id="btnReceta">Finalizar Compra</button>
+                </form>
+            </section>
+    </main>
+    <footer>
+        <p class="piePagina">Lista de Compras</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
